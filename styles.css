@@ -1,3 +1,10 @@
+/*GLOBAL */
+
+
+
+
+
+
 :root {
     --body-background: hsl(0, 0%, 8%);
     --contact-background: hsl(0, 0%, 14%);
@@ -36,6 +43,11 @@ body {
 
 }
 
+a:hover {
+    color: var(--green);
+
+}
+
 .wrapper {
     width:calc(100% - 2rem) ;
     max-width: var(--container);
@@ -50,5 +62,21 @@ body {
 
     }
     
+
+}
+
+/* HEADER*/
+.header {
+
+}
+
+
+
+.header__home {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
+    color: var(--main-text);
+    text-decoration: none;
+
 
 }
