@@ -1,0 +1,25 @@
+:root {
+    --body-background: #151515;
+    --contact-background: #242424;
+    --green: #4EE1A0;
+    --main-text: #ffffff;
+    --co-main-text: #D9D9D9;
+    --invalid-message: #FF6F5B;
+
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
