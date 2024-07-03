@@ -21,3 +21,7 @@ function show() {
 function close () {
     mainMenu.style.top = "-100%"
 }
+
+setTimeout(() => {
+    mainMenu.style.display = "none"
+}, 500) // Adjust the timeout duration to match the transition duration
